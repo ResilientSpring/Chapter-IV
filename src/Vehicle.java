@@ -9,5 +9,11 @@ class Vehicle {
 	void range() {    // The range() method is contained within the Vehicle class.
 		System.out.println("Range is " + fuelcap * mpg);
 	}
+	
+	// Return the range.
+	int range2() {
+		return mpg * fuelcap;
+		
+	}
 
 }
