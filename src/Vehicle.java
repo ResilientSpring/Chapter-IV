@@ -15,5 +15,10 @@ class Vehicle {
 		return mpg * fuelcap;
 		
 	}
+	
+	// Compute fuel needed for a given distance.
+	double fuelneeded(int miles) {
+		return miles/mpg;
+	}
 
 }
