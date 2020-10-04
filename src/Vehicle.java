@@ -20,5 +20,12 @@ class Vehicle {
 	double fuelneeded(int miles) {
 		return miles/mpg;
 	}
+	
+	// This is a constructor for Vehicle.
+	public Vehicle(int p, int f, int m) {
+		passengers = p;
+		fuelcap = f;
+		mpg = m;
+	}
 
 }
