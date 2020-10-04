@@ -6,5 +6,5 @@ public class MyClass {
 	MyClass() {
 		x = 10;
 	}
-
+	
 }
