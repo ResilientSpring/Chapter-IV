@@ -5,8 +5,8 @@ public class VehConsDemo {
 		// TODO Auto-generated method stub
 
 		// construct complete vehicles
-		Vehicle minivanVehicle = new Vehicle(7, 16, 21);
-		Vehicle sportscarVehicle = new Vehicle(2, 14, 12);
+		Vehicle2 minivanVehicle = new Vehicle2(7, 16, 21);
+		Vehicle2 sportscarVehicle = new Vehicle2(2, 14, 12);
 
 		int dist = 252;
 		double gallons = minivanVehicle.fuelneeded(dist);
